@@ -49,7 +49,7 @@ export function MerchandiseSection() {
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-10">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
-            Mercancía Oficial
+            Mercancía Oficial <br />
             <Badge variant="outline" className="ml-3 bg-red-100 text-red-600">
               Nueva Colección
             </Badge>
