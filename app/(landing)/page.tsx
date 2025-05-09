@@ -9,7 +9,14 @@ import Experience from "./_components/sections/experience-timeline";
 import TechStack from "./_components/sections/tech-stack";
 import Testimonials from "./_components/sections/testimonials";
 import Contact from "./_components/sections/contact";
-import Footer from "./_components/sections/footer";
+
+import { ProgramsSection } from "./_components/sections/programs-section";
+import { TrainersSection } from "./_components/sections/tainers-section";
+import { PersonalTrainingSection } from "./_components/sections/personal-training-section";
+import { GallerySection } from "./_components/sections/gallery-section";
+import { MerchandiseSection } from "./_components/sections/merchandise-section";
+import { RegistrationForm } from "./_components/sections/register-section";
+import { FooterSection } from "./_components/sections/footer-section";
 
 export default function Home() {
   return (
@@ -17,6 +24,13 @@ export default function Home() {
       {/* <h1 className="bg-azulAstro underline">3d portfolio</h1> */}
       <Navbar />
       <Hero />
+      <ProgramsSection />
+      <TrainersSection />
+      <PersonalTrainingSection />
+      <GallerySection />
+      <MerchandiseSection />
+      <RegistrationForm />
+      <FooterSection />
       {/* <AppShowcase />
       <LogoShowcase />
       <FeatureCards />
