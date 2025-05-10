@@ -90,7 +90,7 @@ const Hero = () => {
                 </h1>
               </div> */}
             </div>
-
+            {/* 
             <p className="text-white md:text-xl relative z-10 pointer-events-none">
               Una academia de baloncesto dedicada a la formación integral de{" "}
               <br />
@@ -101,7 +101,7 @@ const Hero = () => {
               físicas, <br />
               así como fomentar valores como el trabajo en equipo, la disciplina
               y el respeto.
-            </p>
+            </p> */}
             {/* <div className="absolute bottom-48 left-8 z-10">
               <h1 className="text-white text-xl sm:text-2xl md:text-3xl  font-roboto font-extrabold tracking-wider typewriter">
                 {currentText}

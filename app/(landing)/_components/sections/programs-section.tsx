@@ -29,7 +29,8 @@ export function ProgramsSection() {
       ages: "6 - 11 años",
       prices: { month: 1800, week: 550, session: 300 },
       coaches: ["Juan Chicuate", "Jose Luis Cortez", "Caneck Leyva"],
-      enrollmentLink: "https://forms.gle/49w8pxtc5525dJdb6",
+      enrollmentLink:
+        "https://docs.google.com/forms/d/e/1FAIpQLSeT3andelMhR02n7sBPb_DWJ9CBgYj9C1Onw6WXdd3QTYH5Sg/viewform",
       image: "/images/landing/programs8.JPG",
     },
   ];
