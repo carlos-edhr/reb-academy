@@ -26,9 +26,9 @@ const Navbar = () => {
   return (
     <header className={`navbar ${scrolled ? "scrolled" : "not-scrolled"}`}>
       <div className="inner">
-        <a href="#hero" className="logo ">
+        <a href="/" className="logo ">
           <Image
-            src="/images/logo.png" // Replace with your logo path
+            src="/logos/logo-hero.png" // Replace with your logo path
             alt="Logo"
             width={95} // Adjust width as needed
             height={95} // Adjust height as needed

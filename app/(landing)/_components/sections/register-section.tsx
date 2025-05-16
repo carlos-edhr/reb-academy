@@ -68,7 +68,7 @@ export function RegistrationForm() {
   }
 
   return (
-    <section className="py-12 px-4 md:px-8 bg-neutral-950">
+    <section className="pt-40 pb-10 px-4 md:px-8 bg-neutral-950">
       <div className="max-w-3xl mx-auto">
         <div className="text-center mb-10">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">

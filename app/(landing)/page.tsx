@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Hero from "./_components/sections/hero";
+import { HeroSection } from "./_components/sections/hero";
 import AnimatedCounter from "./_components/secondary/animated-counter";
 import AppShowcase from "./_components/sections/showcase";
 import Navbar from "./_components/sections/navbar";
@@ -17,20 +17,23 @@ import { GallerySection } from "./_components/sections/gallery-section";
 import { MerchandiseSection } from "./_components/sections/merchandise-section";
 import { RegistrationForm } from "./_components/sections/register-section";
 import { FooterSection } from "./_components/sections/footer-section";
+import { LocationSection } from "./_components/sections/location-section";
 
 export default function Home() {
   return (
     <div className="">
       {/* <h1 className="bg-azulAstro underline">3d portfolio</h1> */}
       <Navbar />
-      <Hero />
+      <HeroSection />
       <ProgramsSection />
       <TrainersSection />
       <PersonalTrainingSection />
       <GallerySection />
       <MerchandiseSection />
-      <RegistrationForm />
+      <LocationSection />
+      {/* <RegistrationForm /> */}
       <FooterSection />
+
       {/* <AppShowcase />
       <LogoShowcase />
       <FeatureCards />
